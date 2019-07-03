@@ -2,8 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite]" parallel="tests">
   <parameter name="browser" value="IE"/>
-  <test name="FirefoxDriver test(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+  <test name="IEDriver test(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
     <classes>
       <class name="testCases.NewTest">
         <methods>
@@ -17,5 +17,5 @@
         </methods>
       </class> <!-- testCases.NewTest -->
     </classes>
-  </test> <!-- FirefoxDriver test(failed) -->
+  </test> <!-- IEDriver test(failed) -->
 </suite> <!-- Failed suite [Test suite] -->
