@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Test suite]" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test suite]" parallel="methods">
   <parameter name="browser" value="IE"/>
-  <test name="IEDriver test(failed)" parallel="tests">
+  <test name="IEDriver test(failed)" parallel="methods">
     <parameter name="browser" value="IE"/>
     <classes>
       <class name="testCases.NewTest">
         <methods>
-          <include name="end"/>
           <include name="end"/>
           <include name="end"/>
           <include name="f"/>
